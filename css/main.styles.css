@@ -1,0 +1,369 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #333333;
+
+}
+
+body h2{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+
+    color: #495F1D;
+}
+
+a {
+    cursor: pointer;
+}
+
+.containerBlock {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.startScreen {
+    background-image: url(../img/pexels-jess-vide-4601420\ 1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 666px;
+    overflow: hidden;
+}
+
+.startScreen h1 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    letter-spacing: 0.01em;
+    margin-bottom: 50px;
+}
+
+.Btn {
+    background: #A6B03B;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.headerText {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #495F1D;
+}
+
+.About {
+    height: 700px;
+}
+
+.About h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.aboutBlock {
+    width: 370px;
+    height: 300px;
+    background: #F6F7EB;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+
+.aboutBlock h3 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #495F1D;
+    margin-bottom: 12px;
+}
+
+.aboutBlock p {
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.aboutBlock:hover h3 {
+    color: white;
+}
+
+.aboutBlock:hover {
+    background: #A6B03B;
+    color: white;
+}
+
+.aboutBlock:hover p {
+    color: white;
+}
+
+.aboutBlock div {
+    width: 60px;
+    height: 60px;
+    margin: 30px auto;
+}
+
+.technical-support {
+    background-image: url(../img/about/technical-support\ 1.svg);
+}
+
+.aboutBlock:hover .technical-support {
+    background-image: url(../img/about/technical-support\ white.svg);
+}
+
+.partner {
+    background-image: url(../img/about/partner\ 1.svg);
+}
+
+.aboutBlock:hover .partner {
+    background-image: url(../img/about/partner\ white.svg);
+}
+
+.leader {
+    background-image: url(../img/about/leader\ 1.svg);
+}
+
+.aboutBlock:hover .leader {
+    background-image: url(../img/about/leader\ white.svg);
+}
+
+.bgLogo {
+    background-image: url(../img/Лого.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 480px;
+}
+
+.ourMission h2{
+    margin-bottom: 20px;
+}
+
+.ourMission p{
+    margin-top: 20px;
+    width: 473px;
+}
+
+.successStory h2{
+    margin-bottom: 20px;
+}
+
+.successStory p{
+    margin-top: 20px;
+    width: 473px;
+}
+
+.bgLogo2{
+    background-image: url(../img/Лого.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-origin: content-box;
+    background-position: calc(115%) calc(200%);
+    background-size: 480px;
+}
+
+.Customers{
+    background-image: url(../img/pexels-lrm-exterior-944463\ 1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+.Customers h4{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 133px;
+
+    color: #A6B03B;
+}
+
+.Customers p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+
+
+    color: #FFFFFF;
+}
+
+.logoCustomers{
+    background-image: url(../img/Лого\ 2.svg);
+    background-size: 190px;
+    background-repeat: no-repeat;
+    width: 2500px;
+    height: 250px;
+    padding: 60px 0px 0px 80px ;
+}
+
+.news{
+    height: 750px;
+}
+
+.newsBlock{
+    width: 370px;
+    height: 520px;
+}
+
+.newsBlock h3{
+    margin-top: 20px;
+}
+.Testimonials{
+    background-image: url(../img/Frame.svg);
+    background-repeat: no-repeat;
+    background-position: calc(20%) calc(60%);
+    width: 100%;
+    height: 700px;
+}
+
+.askedBlock{
+    width: 580px;
+    padding: 25px;
+}
+
+summary {
+    list-style: none;
+  }
+  
+summary::-webkit-details-marker {
+      display: none;
+}
+
+.Subscribe{
+    width: 100%;
+    height: 400px;
+    background: #F6F7EB;
+    border-bottom: 1px solid black;
+}
+
+.Subscribe h2{
+    font-family: 'Playfair Display';
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 10px;
+}
+
+.Subscribe p{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.Subscribe input{
+    border: 1px solid gray;
+}
+
+.FirstName{
+    background-image: url(../img/user\ 1.svg);
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+.LastName{
+    background-image: url(../img/user\ 1.svg);
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    margin: 0 30px;
+}
+.Email{
+    background-image: url(../img/contact/email\ 1.svg);
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+.footerBlock{
+    width: 100%;
+    height: 410px;
+    background: #EFEED9;
+    padding: 60px 0;
+}
+
+.footerText{
+    width: 340px;
+    margin: 15px 0;
+}
+
+.follow p{
+    margin: 5px 0;
+    color: #495F1D;
+    margin-right: 35px;
+}
+
+.follow button{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    margin: 0 5px;
+}
+
+.follow button img{
+    margin: 0 auto;
+}
+
+.QuickLinks h4 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+
+
+    color: #495F1D;
+    margin-bottom: 30px;
+}
+.QuickLinks a{
+    margin-bottom: 15px;
+}
+
+.QuickLinks button {
+    width: 100px;
+    height: 35px;
+    border: #333333 1px solid;
+}
+
+.ContactUs h4 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #495F1D;
+    margin-bottom: 25px;
+}
+
+.ContactUs p{
+    margin: 12px 10px;
+}
+
+@media screen and (max-width: 1700px) {
+    .ourMission{
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+    .successStory{
+        padding-top: 10px;
+    }
+  }

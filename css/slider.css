@@ -1,0 +1,56 @@
+.SliderBlock{
+    width: 370px;
+    height: 475px;
+    background-color: white;
+    margin: 110px 15px 0 15px;
+}
+
+.SliderBlock img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 30px auto;
+}
+
+.SliderBlock h3{
+    margin: 0 35px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    /* or 130% */
+
+    text-align: center;
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+
+.SliderBlock p{
+    padding: 5px 35px;
+    text-align: center;
+}
+
+.nameSliderBlock{
+    margin: 20px auto;
+    text-align: center;
+}
+
+.arrow{
+    width: 20px;
+    height: 20px;
+}
+
+li{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 40px 5px 0 5px;
+}
+
+.isActive{
+    background-color: olivedrab;
+}

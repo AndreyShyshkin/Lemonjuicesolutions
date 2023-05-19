@@ -1,3 +1,5 @@
+html, body {width: 100%; max-width: 100%;}
+
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -65,7 +67,7 @@ a {
 }
 
 .About {
-    height: 700px;
+    min-height: 700px;
 }
 
 .About h2 {
@@ -155,7 +157,7 @@ a {
 
 .ourMission p{
     margin-top: 20px;
-    width: 473px;
+    max-width: 473px;
 }
 
 .successStory h2{
@@ -164,7 +166,7 @@ a {
 
 .successStory p{
     margin-top: 20px;
-    width: 473px;
+    max-width: 473px;
 }
 
 .bgLogo2{
@@ -183,7 +185,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 450px;
+    min-height: 450px;
     overflow: hidden;
 }
 
@@ -218,7 +220,7 @@ a {
 }
 
 .news{
-    height: 750px;
+    min-height: 750px;
 }
 
 .newsBlock{
@@ -234,11 +236,11 @@ a {
     background-repeat: no-repeat;
     background-position: calc(20%) calc(60%);
     width: 100%;
-    height: 700px;
+    min-height: 700px;
 }
 
 .askedBlock{
-    width: 580px;
+    max-width: 580px;
     padding: 25px;
 }
 
@@ -252,7 +254,7 @@ summary::-webkit-details-marker {
 
 .Subscribe{
     width: 100%;
-    height: 400px;
+    min-height: 400px;
     background: #F6F7EB;
     border-bottom: 1px solid black;
 }
@@ -278,24 +280,29 @@ summary::-webkit-details-marker {
     background-position: 10px center;
     background-repeat: no-repeat;
     padding-left: 40px;
+    width: 260px;
+    height: 45px;
 }
 .LastName{
     background-image: url(../img/user\ 1.svg);
     background-position: 10px center;
     background-repeat: no-repeat;
     padding-left: 40px;
-    margin: 0 30px;
+    width: 260px;
+    height: 45px;
 }
 .Email{
     background-image: url(../img/contact/email\ 1.svg);
     background-position: 10px center;
     background-repeat: no-repeat;
     padding-left: 40px;
+    width: 260px;
+    height: 45px;
 }
 
 .footerBlock{
     width: 100%;
-    height: 410px;
+    min-height: 410px;
     background: #EFEED9;
     padding: 60px 0;
 }
@@ -357,13 +364,3 @@ summary::-webkit-details-marker {
 .ContactUs p{
     margin: 12px 10px;
 }
-
-@media screen and (max-width: 1700px) {
-    .ourMission{
-        padding-left: 50px;
-        padding-top: 50px;
-    }
-    .successStory{
-        padding-top: 10px;
-    }
-  }
